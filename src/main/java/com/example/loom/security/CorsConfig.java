@@ -15,7 +15,7 @@ public class CorsConfig {
         config.setAllowedOrigins(List.of("http://localhost:5502",
                                         "http://localhost:5500",
                                         "http://127.0.0.1",
-                                    "http://127.0.0.1:5502"));
+                                    "http://127.0.0.1:5502","https://raksh669.github.io/loomfrontend/"));
         config.setAllowedMethods(List.of("GET","POST","PUT","PATCH","DELETE"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true); 
